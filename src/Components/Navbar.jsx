@@ -4,7 +4,7 @@ import {HiOutlineMail} from 'react-icons/hi'
 import { AiFillFolderOpen } from "react-icons/ai";
 import {BsFillPersonLinesFill} from 'react-icons/bs'
 import {Link} from 'react-scroll'
-import Resume from '../Assets/Resume.pdf'
+import SurmitaJaiswal_Resume from '../Assets/SurmitaJaiswal_Resume.pdf'
 
 import { useState } from 'react';
 
@@ -60,7 +60,7 @@ const Navbar = () => {
         <Link onClick={handleClick} to='contact' smooth={true} duration={500}>Contact</Link>
         </li>
       </ul>
-      <div className="hidden lg:flex fixed flex-col top-[35%] left-0">
+      <div className={!nav ? 'hidden lg:flex fixed flex-col top-[35%] left-0': 'flex fixed flex-col top-[35%] left-0'}>
         <ul>
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-blue-600">
             <a
@@ -89,7 +89,7 @@ const Navbar = () => {
           <li className="w-[160px] h-[60px] flex justify-between items-center ml-[-100px] hover:ml-[-10px] duration-300 bg-[#565f69]">
             <a
               className="flex justify-around items-center w-full text-gray-300"
-              href={Resume} target='_blank' rel="noopener noreferrer"
+              href={SurmitaJaiswal_Resume} target='_blank' rel="noopener noreferrer"
             >
               Resume <BsFillPersonLinesFill size={30} />
             </a>
