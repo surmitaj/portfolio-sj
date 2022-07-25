@@ -19,9 +19,9 @@ const About = () => {
           <div>
             <p>
               I am detail-oriented, responsible and committed software engineer
-              with 1.7 years of experience in development technologies. Skilled
+              with experience in development technologies. Also skilled
               in developing plans, managing projects and user documentation.
-              Proficient in HTML, CSS, Javascript and ReactJS
+              Proficient in HTML, CSS, Javascript and ReactJS.
             </p>
           </div>
         </div>
